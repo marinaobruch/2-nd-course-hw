@@ -71,6 +71,14 @@ body {
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+.main__button:hover {
+    transform: scale(1.1);
 }
 
 .games {
@@ -88,6 +96,7 @@ body {
     border-radius: 16px;
     width: 379px;
     height: 300px;
+    box-sizing: border-box;
 
     font-style: normal;
     font-weight: 600;
@@ -101,6 +110,12 @@ body {
     flex-direction: row;
     align-items: flex-end;
     flex-wrap: nowrap;
+
+    cursor: pointer;
+}
+
+.games__item:hover {
+    border: 3px solid #44D2FF;
 }
 
 .games__item--1 {
