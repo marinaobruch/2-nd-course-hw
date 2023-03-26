@@ -4,6 +4,7 @@
 // a1 = 20;
 // alert(a1);
 
+
 // Задание 2
 // let iPhoneReleaseYear = 2017;
 // alert(`Год выпуска первого айфона состоялся в ${iPhoneReleaseYear} году`);
