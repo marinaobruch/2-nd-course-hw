@@ -1,4 +1,4 @@
-// Задание 1 (внесены правки)
+// Задание 1
 // let a1 = 10;
 // alert(a1);
 // a1 = 20;
@@ -45,25 +45,25 @@
 // let age = prompt("Сколько вам лет?");
 // alert(age);
 
-// Задание 9.0 (внесены правки)
+// Задание 9.0
 // const user = {
 //     name: `Marina`,
 //     age: 26,
 //     asAdmin: true,
 // }
 
-// Задание 9.1 (внесены правки)
+// Задание 9.1
 // user['city of residence'] = 'Barcelona'
 // // console.log(user[`city of residence`]); // Check
 
-// Задание 9.2 (внесены правки)
+// Задание 9.2
 // user.age = 27
 // // console.log(user.age);// Check
 
 // // Задание 9.3
 // delete user[`city of residence`];
 
-// // Задание 9.4 (внесены правки)
+// // Задание 9.4
 // let info = prompt(`Какую информацию хотите узнать о пользователе?`, `name`);
 // // console.log(user[info]); // Check
 // alert(user[info]);
