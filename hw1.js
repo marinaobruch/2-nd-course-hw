@@ -1,9 +1,11 @@
-// Задание 1
-// let a1 = 20;
-// alert(a);
+// Задание 1 (внесены правки)
+// let a1 = 10;
+// alert(a1);
+// a1 = 20;
+// alert(a1);
 
 // Задание 2
-// let iPhoneReleaseYear = Number(2017);
+// let iPhoneReleaseYear = 2017;
 // alert(`Год выпуска первого айфона состоялся в ${iPhoneReleaseYear} году`);
 
 // Задание 3
@@ -11,8 +13,8 @@
 // alert(`Имя создателя языка JavaScript - ${nameCreation}`);
 
 // Задание 4
-// let a4 = Number(10);
-// let b4 = Number(2);
+// let a4 = 10;
+// let b4 = 2;
 
 // alert(a4 + b4); // Сумма
 // alert(a4 - b4); // Разность
@@ -20,13 +22,13 @@
 // alert(a4 / b4); // Частное
 
 // Задание 5
-// let a5 = Number(2);
-// let result = a5 ** Number(5);
+// let a5 = 2;
+// let result = a5 ** 5;
 // alert(result);
 
 // Задание 6
-// let a6 = Number(9);
-// let b6 = Number(2);
+// let a6 = 9;
+// let b6 = 2;
 // alert(a6 % b6);
 
 // Задание 7
@@ -43,21 +45,27 @@
 // let age = prompt("Сколько вам лет?");
 // alert(age);
 
-// Задание 9.0
+// Задание 9.0 (внесены правки)
 // const user = {
 //     name: `Marina`,
 //     age: 26,
 //     asAdmin: true,
-//     // Задание 9.1
-//     "city of residence": "Barcelona",
-//     // Задание 9.2
-//     age: 27,
 // }
+
+// Задание 9.1 (внесены правки)
+// user['city of residence'] = 'Barcelona'
+// // console.log(user[`city of residence`]); // Check
+
+// Задание 9.2 (внесены правки)
+// user.age = 27
+// // console.log(user.age);// Check
+
 // // Задание 9.3
 // delete user[`city of residence`];
-// // Задание 9.4
-// let info = prompt(`Какую информацию хотите узнать о пользователе?`, `name`, `age`);
-// console.log(user[info]);
+
+// // Задание 9.4 (внесены правки)
+// let info = prompt(`Какую информацию хотите узнать о пользователе?`, `name`);
+// // console.log(user[info]); // Check
 // alert(user[info]);
 
 // Задание 10
