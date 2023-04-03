@@ -45,9 +45,8 @@
 // console.log(num);
 
 // Задание 6
-// for (let dayNumber = 1; dayNumber <= 31; dayNumber++) {
-//     if (dayNumber % 5 == 0) {
-//         console.log(`Сегодня пятница, ${dayNumber} - е число.Необходимо подготовить отчет.`);
-//         continue;
-//     }
-// }
+const firstFriday = 3;
+for (let dayNumber = firstFriday; dayNumber <= 31; dayNumber += 7) {
+    const message = `Сегодня пятница, ${dayNumber}-е число. Необходимо подготовить отчет.`;
+    console.log(message);
+}
