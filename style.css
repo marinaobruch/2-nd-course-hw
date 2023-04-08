@@ -31,8 +31,6 @@ body {
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
-    display: flex;
-    align-items: center;
     color: #FFFFFF;
     padding-bottom: 32px;
     width: 788px;
@@ -41,12 +39,12 @@ body {
 .main__text {
     width: 481px;
     font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 32px;
-        color: #FFFFFF;
-        padding-bottom: 44px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 44px;
 }
 
 .main__link {
@@ -133,4 +131,160 @@ body {
 .games__name {
     padding-left: 32px;
     padding-bottom: 32px;
+}
+
+.firstGame {
+    background-color: #000915;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 135px;
+    padding-bottom: 234px;
+    padding-top: 234px;
+}
+
+.firstGame__discription {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 32px;
+}
+
+.firstGame__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.firstGame__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.firstGame__button {
+    width: 234px;
+    height: 48px;
+    background: #9C0332;
+    border: none;
+    border-radius: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+.firstGame__button:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .main {
+        height: 735px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+    .main__heading {
+        width: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        padding: 0px;
+    }
+
+    .main__text {
+        width: auto;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;   
+    }
+
+    .main__link {
+        font-size: 14px;
+        line-height: 22px;  
+        font-weight: 900;
+    }
+
+    .games {
+        padding-top: 128px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .games__all {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .firstGame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        gap: 64px;
+        padding-bottom: 234px;
+        padding-top: 178px;
+    }
+
+    .firstGame__discription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .firstGame__heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .firstGame__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .games__item {
+        width: 343px;
+        height: 300px;
+    }
+
+    .firstGame__img {
+        width: 344px;
+        height: 236px;
+    }
+
 }
