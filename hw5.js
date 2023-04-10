@@ -19,12 +19,16 @@
 // greetings = greetings.join(' ');
 // console.log(greetings);
 
-// // Задание 4
-// let arr = [
-//     [1, 1, 1],
-//     [1, 1, 1],
-//     [1, 1, 1]
-// ]
+// // // Задание 4
+// const arr = []
+
+// for (let i = 0; i <= 2; i++) {
+//     arr.push([]);
+//     for (let j = 0; j <= 2; j++) {
+//         arr[i][j] = 1;
+//     }
+// }
+
 // console.log(arr);
 
 // for (let arrIn of arr) {
@@ -68,17 +72,14 @@
 // let result = arrRev.join('');
 // console.log(result);
 
-// // Задание 9
+// // // Задание 9
 // let array9 = [
 //     [1, 2, 3],
 //     [4, 5, 6]
 // ]
 
-// let combString = array9.join(',');
-// console.log(combString);
-
-// let combArr = combString.split(',');
-// console.log(combArr);
+// let newArr = array9.flat(2);
+// console.log(newArr);
 
 // // Задание 10
 // let array10 = [1, 6, 9, 4, 5, 8];
@@ -100,10 +101,15 @@
 // // Задание 12
 // let array12 = ['слово', '', 'слог', 'длинное предложение', 'буква'];
 
-// let newArr = array12.map((far) => {
+// // New method
+// let newArr = array12.map(function (far) { return far.length });
+// console.log(newArr);
+
+// // Old method
+// let newArrSec = array12.map((far) => {
 //     return far.length;
 // });
-// console.log(newArr);
+// console.log(newArrSec);
 
 
 // Попытки создать через функцию for (не увенчались успехом))
@@ -125,13 +131,13 @@
 
 // }
 
-// // Задание 13
-// const array13 = [1, -2, 3, 4, -6, 10, -5, 78, -97];
+// // // Задание 13
+// let array13 = [1, -2, 3, 4, -6, 10, -5, 78, -97];
+
+// // New method
+// let newArr = array13.filter(function (item) { return item < 0 });
+// console.log(newArr);
+
+// // Old method
 // const resultFilter = array13.filter(item => item < 0);
-
 // console.log(resultFilter);
-
-// Задание 14
-
-
-// Задание 15
