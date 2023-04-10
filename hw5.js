@@ -31,12 +31,6 @@
 
 // console.log(arr);
 
-// for (let arrIn of arr) {
-//     for (let element of arrIn) {
-//         console.log(element);
-//     }
-// }
-
 // // Задание 5
 // let array5 = [1, 1, 1];
 // array5.push(2, 2, 2);
