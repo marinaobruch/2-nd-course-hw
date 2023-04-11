@@ -92,21 +92,24 @@
 // let result = array11.map(item => (item ** 2));
 // console.log(result);
 
+
+
 // // Задание 12
-// let array12 = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+// function findLength() {
+//     let array12 = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+//     let newArr = array12.map(function (far) { return far.length });
+//     console.log(newArr);
+// }
+// findLength();
+
 
 // // New method
 // let newArr = array12.map(function (far) { return far.length });
 // console.log(newArr);
 
-// // Old method
-// let newArrSec = array12.map((far) => {
-//     return far.length;
-// });
-// console.log(newArrSec);
 
+// Попытки создать через функцию for
 
-// Попытки создать через функцию for (не увенчались успехом))
 // for (let a = 0; a < array12.length; a++) {
 //     let newArr = array12[a];
 //     // console.log(newArr);
@@ -122,16 +125,18 @@
 
 //     // let combString = newArray2.split(' ');
 //     // console.log(combString);
-
 // }
 
-// // // Задание 13
-// let array13 = [1, -2, 3, 4, -6, 10, -5, 78, -97];
+// // Задание 13
+// function findNegative() {
+//     let array13 = [1, -2, 3, 4, -6, 10, -5, 78, -97];
+//     let newArr = array13.filter(function (item) { return item < 0 });
+//     console.log(newArr);
+// }
+// findNegative();
 
 // // New method
 // let newArr = array13.filter(function (item) { return item < 0 });
 // console.log(newArr);
 
-// // Old method
-// const resultFilter = array13.filter(item => item < 0);
-// console.log(resultFilter);
+
