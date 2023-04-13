@@ -133,7 +133,7 @@ body {
     padding-bottom: 32px;
 }
 
-.firstGame {
+.game {
     background-color: #000915;
 
     display: flex;
@@ -145,14 +145,14 @@ body {
     padding-top: 234px;
 }
 
-.firstGame__discription {
+.game__discription {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 32px;
 }
 
-.firstGame__heading {
+.game__heading {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -160,7 +160,7 @@ body {
     color: #FFFFFF;
 }
 
-.firstGame__text {
+.game__text {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -168,7 +168,7 @@ body {
     color: #FFFFFF;
 }
 
-.firstGame__button {
+.game__button {
     width: 234px;
     height: 48px;
     background: #9C0332;
@@ -187,8 +187,87 @@ body {
     transition: all 0.3s;
 }
 
-.firstGame__button:hover {
+.game__button:hover {
     transform: scale(1.1);
+}
+
+/* .game__currImg {
+    max-width: 425px;
+    height: 236px;
+} */
+
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+.center {
+    padding-left: calc(50% - 400px);
+    padding-right: calc(50% - 400px);
+}
+.games__all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .main {
+        height: 735px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+    .main__link {
+        font-size: 14px;
+        line-height: 22px;  
+        font-weight: 900;
+    }
+
+    .games {
+        padding-top: 128px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .games__all {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 46px;
+    }
+
+
+    .game {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        gap: 64px;
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+
+    .game__discription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
 }
 
 @media (min-width: 426px) and (max-width: 767px) {
@@ -243,7 +322,7 @@ body {
         gap: 32px;
     }
 
-    .firstGame {
+    .game {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -254,25 +333,30 @@ body {
         padding-top: 178px;
     }
 
-    .firstGame__discription {
+    .game__discription {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .firstGame__heading {
+    .game__heading {
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 39px;
     }
 
-    .firstGame__text {
+    .game__text {
         font-style: normal;
         font-weight: 300;
         font-size: 14px;
         line-height: 22px;
+    }
+
+    .game__currImg {
+        max-width: 425px;
+        height: 236px;
     }
 
 }
@@ -329,32 +413,32 @@ body {
         gap: 32px;
     }
 
-    .firstGame {
+    .game {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
 
         gap: 64px;
-        padding-bottom: 234px;
-        padding-top: 178px;
+        padding-bottom: 120px;
+        padding-top: 120px;
     }
 
-    .firstGame__discription {
+    .game__discription {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .firstGame__heading {
+    .game__heading {
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 39px;
     }
 
-    .firstGame__text {
+    .game__text {
         font-style: normal;
         font-weight: 300;
         font-size: 14px;
@@ -366,8 +450,8 @@ body {
         height: 300px;
     }
 
-    .firstGame__img {
-        width: 344px;
+    .game__currImg {
+        max-width: 344px;
         height: 236px;
     }
 
@@ -425,32 +509,32 @@ body {
         gap: 32px;
     }
 
-    .firstGame {
+    .game {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
 
         gap: 64px;
-        padding-bottom: 234px;
-        padding-top: 178px;
+        padding-bottom: 140px;
+        padding-top: 140px;
     }
 
-    .firstGame__discription {
+    .game__discription {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .firstGame__heading {
+    .game__heading {
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 39px;
     }
 
-    .firstGame__text {
+    .game__text {
         font-style: normal;
         font-weight: 300;
         font-size: 14px;
@@ -462,7 +546,7 @@ body {
         height: 300px;
     }
 
-    .firstGame__img {
+    .game__img {
         display: none;
     }
 
