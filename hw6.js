@@ -6,10 +6,12 @@
 
 
 // // Задание 2
-// function searchWords() {
-//     const varArray = ['Мельница', 'Жизнь', 'Сознание', 'Меланхолия', 'Радость', 'Ветер', 'Окно', 'Мелодия'];
-//     const varString = 'Мел';
-//     emptyArr = [];
+// const varString = 'Мел';
+// // const varString = 'Ра'; // Иной вариант параметра
+// emptyArr = [];
+
+// function searchWords(varString) {
+//     const varArray = ['Мельница', 'Жизнь', 'Равенство', 'Меланхолия', 'Радость', 'Ветер', 'Рама', 'Мелодия'];
 
 //     varArray.forEach((varWord) => {
 //         if (varWord.toLowerCase().startsWith(varString.toLowerCase())) {
@@ -18,7 +20,7 @@
 //     });
 //     console.log(emptyArr);
 // }
-// searchWords();
+// searchWords(varString);
 
 
 // // Задание 3
@@ -58,24 +60,19 @@
 
 
 // // Задание 6
-// const getNumber = 12;
-// let lengthArr = getNumber / 2; // 6
-// let randNumber;
+// // Напишите функцию, которая будет принимать на вход целое число, а возвращать массив случайных целых чисел от 0 до переданного числа. 
+// // Длина массива должна быть в 2 раза меньше переданного числа.
 
-// function getRandomArrNumbers() {
-//     for (const newArr = []; newArr.length <= lengthArr;) {
+// const getArray = (num) => {
+//     let result = [];
 
-//         function getRandomNumber(min, max) {
-//             randNumber = Math.floor(Math.random() * (max - min) + min);
-//         }
-//         getRandomNumber(0, lengthArr);
-
-//         newArr.push(randNumber);
-//         console.log(newArr);
+//     for (let i = 0; i < Math.floor(num / 2); i++) {
+//         result.push(Math.round(Math.random() * num));
 //     }
+//     return result;
 // }
 
-// getRandomArrNumbers();
+// console.log(getArray(12));
 
 
 // // Задание 7

@@ -35,18 +35,18 @@ function guessWords() {
     let rightLasttWord = list[6];
     console.log(rightLasttWord); // Проверка
 
-    let firstUserWord = prompt("Чему равнялся первый элемент массива?");
+    let firstUserWord = prompt("Какое было первое слово?");
     console.log(firstUserWord); // Проверка
-    let lastUserWord = prompt("Чему равнялся последний элемент массива?");
+    let lastUserWord = prompt("Какое было последнее слово?");
     console.log(lastUserWord); // Проверка
 
     if (rightFirstWord.toLowerCase() === firstUserWord.toLowerCase() && rightLasttWord.toLowerCase() === lastUserWord.toLowerCase()) {
         alert('Поздравляю! Ты чемпион!! Ты верно всё запомнил!!!');
     } else if (rightFirstWord.toLowerCase() === firstUserWord.toLowerCase() || rightLasttWord.toLowerCase() === lastUserWord.toLowerCase()) {
-        alert('Вы были близки к победе!');
+        alert('Ты был близок к победе! Сыграй еще и пробуй угадать оба слова');
     }
     else {
-        alert("Вы ответили неверно :(( Попробуйте еще разок!");
+        alert("Ты ответил неверно :(( Попробуй еще разок!");
     }
 
 }
