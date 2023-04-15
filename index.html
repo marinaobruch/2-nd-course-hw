@@ -18,37 +18,50 @@
         <h1 class="main__heading">Добро пожаловать <br> на мой сайт !</h1>
         <div class="main__text">
             <p class="main__text--simp">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
-                <a class="main__link" href="#">поехали</a> и <a class="main__link" href="#">приступай</a>
+                <a class="main__link" href="#games">поехали</a> и <a class="main__link" href="#firstGame">приступай</a>
             </p>
         </div>
-        <button class="main__button">Поехали!</button>
+        <a class="main__button" href="#games">Поехали!</a>
     </main>
 
-    <section class="games center">
+    <section class="games center" id="games">
         <div class="games__all">
-            <a class="games__item games__item--1" href="#firstGame">
+            <a class="games__item" href="#firstGame">
                 <p class="games__name">Игра 1</p>
             </a>
-            <a class="games__item games__item--2" href="#secondGame">
+            <a class="games__item" href="#secondGame">
                 <p class="games__name">Игра 2</p>
             </a>
-            <a class="games__item games__item--3" href="#thirdGame">
+            <a class="games__item" href="#thirdGame">
                 <p class="games__name">Игра 3</p>
             </a>
         </div>
 
     </section>
 
-    <section id="firstGame" class="firstGame center">
-        <div class="firstGame__discription">
-            <div class="firstGame__heading">Времена года</div>
-            <p class="firstGame__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+    <section id="firstGame" class="game center">
+        <div class="game__discription">
+            <div class="game__heading">Времена года</div>
+            <p class="game__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
                 времени года он относится</p>
-            <button class="firstGame__button click1" id="click1" onclick="guessMonth()">Играть!</button>
+            <button class="game__button click1" id="click1" onclick="guessMonth()">Играть!</button>
         </div>
-        <div class="firstGame__img">
-            <img src="img_2/imgFirstGame.svg" alt="imgFirstGame.svg">
+        <div class="game__img">
+            <img class="game__currImg" src="img_2/imgFirstGame.svg" alt="imgFirstGame.svg">
         </div>
+    </section>
+
+    <section id="secondGame" class="game game__second center">
+        <div class="game__img game__img--second">
+            <img class="game__currImg" src="img_2/imgSecGame.svg" alt="imgSecGame.svg">
+        </div>
+        <div class="game__discription">
+            <div class="game__heading">Запомни слова</div>
+            <p class="game__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо
+                запомнить.</p>
+            <button class="game__button click2" id="click2" onclick="guessWords()">Играть!</button>
+        </div>
+
     </section>
 
     <script src="script.js"></script>
