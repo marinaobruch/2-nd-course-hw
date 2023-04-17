@@ -1,28 +1,21 @@
-// //Задание 1
+// // //Задание 1
 
-// // Массив указан в самой функции
-// function makeFunc(callback) {
-//     let result = [1, 2, 3, 4, 5];
-//     let sum = 0;
-//     for (var i = 0; i < result.length; i++) {
-//         sum += result[i];
-//     }
-//     callback(sum);
+// let array1 = [1, 2, 3, 4, 5]
+
+// function mult(arr) {
+//     return Math.round(arr.reduce((acc, curr) => acc * curr));
 // };
 
-// makeFunc(function (result) {
-//     console.log(result);
-// });
+// function sum(arr) {
+//     return arr.reduce(((acc, current) => acc + current));
+// };
 
+// function getRes(arr, callback) {
+//     console.log(callback(arr));
+// }
 
-// // через использование reduce
-// var arr = [1, 2, 3, 4, 5]
-
-// var result = arr.reduce(function (sum, current) {
-//     return sum + current;
-// }, 0);
-
-// console.log(result); // 15
+// getRes(array1, mult);
+// getRes(array1, sum);
 
 
 // //Задание 2
@@ -50,7 +43,7 @@
 
 // const reversedArr = (arr) => {
 //     const reversed = arr.reverse();
-//     console.log(reversed);
+//     // console.log(reversed);
 //     return reversed;
 // }
 
@@ -59,17 +52,16 @@
 //         return !Number.isNaN(value);
 //     });
 
-//     console.log(arr);
+//     // console.log(arr);
 //     return arr;
 // }
 
 // const each = (arr, callback) => {
-//     callback(arr);
+//     return callback(arr);
 // }
 
-// each(array1, reversedArr);
-// each(array1, clearNumber);
-
+// console.log(each(array1, reversedArr));
+// console.log(each(array1, clearNumber));
 
 
 // //Задание 4
